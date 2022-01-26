@@ -1,0 +1,157 @@
+2022-01-20T14:15:55+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/examen/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=http://localhost/examen/cart/
+    [CANCELURL] => http://localhost/examen/cart/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => 1ball2feet
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => PUMA Ultra 1.2 FG/AG
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1599
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/examen/product/puma-ultra-1-2-fg-ag/
+    [PAYMENTREQUEST_0_AMT] => 1599
+    [PAYMENTREQUEST_0_CURRENCYCODE] => SEK
+    [PAYMENTREQUEST_0_ITEMAMT] => 1599
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 2799
+    [PAYMENTREQUEST_0_SHIPTONAME] => Noah Gordon 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Hässleholmsvägen 24
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Johanneshov
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 12153
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => SE
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0737701626
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => noah.o.gordon@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-01-20T14:15:55+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2022-01-20T14:15:56Z
+    [CORRELATIONID] => e9ef9e08fd510
+    [ACK] => Failure
+    [BUILD] => 56144363
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
+2022-01-20T14:16:12+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/examen/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=http://localhost/examen/checkout/
+    [CANCELURL] => http://localhost/examen/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => 1ball2feet
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [USERSELECTEDFUNDINGSOURCE] => BML
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => PUMA Ultra 1.2 FG/AG
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1599
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/examen/product/puma-ultra-1-2-fg-ag/
+    [PAYMENTREQUEST_0_AMT] => 1599
+    [PAYMENTREQUEST_0_CURRENCYCODE] => SEK
+    [PAYMENTREQUEST_0_ITEMAMT] => 1599
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 2799
+    [PAYMENTREQUEST_0_SHIPTONAME] => Noah Gordon 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Hässleholmsvägen 24
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Johanneshov
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 12153
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => SE
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0737701626
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => noah.o.gordon@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-01-20T14:16:12+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2022-01-20T14:16:13Z
+    [CORRELATIONID] => 146e45897e5d7
+    [ACK] => Failure
+    [BUILD] => 56144363
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
+2022-01-20T14:16:29+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/examen/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=http://localhost/examen/checkout/
+    [CANCELURL] => http://localhost/examen/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => 1ball2feet
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => PUMA Ultra 1.2 FG/AG
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1599
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/examen/product/puma-ultra-1-2-fg-ag/
+    [PAYMENTREQUEST_0_AMT] => 1599
+    [PAYMENTREQUEST_0_CURRENCYCODE] => SEK
+    [PAYMENTREQUEST_0_ITEMAMT] => 1599
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 2799
+    [PAYMENTREQUEST_0_SHIPTONAME] => Noah Gordon 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Hässleholmsvägen 24
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Johanneshov
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 12153
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => SE
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0737701626
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => noah.o.gordon@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-01-20T14:16:29+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2022-01-20T14:16:30Z
+    [CORRELATIONID] => adce1f5da1c06
+    [ACK] => Failure
+    [BUILD] => 56144363
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
